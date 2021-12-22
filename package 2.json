@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "webpack --watch",
-    "build": "webpack"
+    "build": "webpackdis"
   },
   "repository": {
     "type": "git",
@@ -20,16 +20,7 @@
   },
   "homepage": "https://github.com/lrivales/food-festival#readme",
   "devDependencies": {
-    "file-loader": "^6.2.0",
     "webpack": "^5.65.0",
-    "webpack-bundle-analyzer": "^4.5.0",
     "webpack-cli": "^4.9.1"
-  },
-  "dependencies": {
-    "bootstrap": "^4.3.1",
-    "image-webpack-loader": "^8.0.1",
-    "jquery": "^3.6.0",
-    "popper.js": "^1.16.0",
-    "save": "^2.4.0"
   }
 }
